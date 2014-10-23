@@ -13,22 +13,21 @@ var gcd=function(a,b){
     a=b;
     b=c;
   };
-  var g=a;
-  return g;
+  var h=a;
+  return h;
 };
 
-var reduce=function(a,b){
-  var c;
+var reduce=function(d,e){
+  var d;
+  var e;
+  var a=d;
+  var b=e;
 
-  if(b==1){
-    return a;
-  }
+  var h=gcd(a,b);
 
- gcd(a,b);
-
-  var e=a/g;
-  var f=b/g;
-  var d=frac(e,f);
+  var f=a/h;
+  var g=b/h;
+  var d=frac(f,g);
   console.log(d);
 };
 
